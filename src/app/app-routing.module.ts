@@ -12,6 +12,7 @@ const routes: Routes = [
   { path: 'appointment2', loadChildren: './appointment2/appointment2.module#Appointment2PageModule' },  { path: 'done', loadChildren: './done/done.module#DonePageModule' },
   { path: 'chat', loadChildren: './chat/chat.module#ChatPageModule' },
   { path: 'signup', loadChildren: './signup/signup.module#SignupPageModule' },
+  { path: 'login', loadChildren: './login/login.module#LoginPageModule' },
 
 
 
