@@ -35,9 +35,26 @@ ion-slide
     height: 125px;
     position: relative;
 }
-#middle
+// #middle
+// {
+//     // display: block;
+//     // margin: 0 auto;
+//     // text-align: center;
+// }
+.background
 {
-    // display: block;
-    // margin: 0 auto;
-    text-align: center;
+    width: auto;
+height: auto;
+display: block;
+    background: #C9C4E5;
+}
+ion-button
+{
+ width: auto;
+ height: 25px;;
+}
+#paw
+{
+    width: auto;
+    height: auto;
 }

@@ -1,0 +1,40 @@
+<ion-header text-center>
+  <ion-toolbar>
+      <ion-buttons slot="start">
+          <ion-back-button ></ion-back-button>
+        </ion-buttons>
+    <ion-title>Appointment Booking</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding text-center>
+  <!-- <img src="" alt=""> -->
+ <img src="../assets/MWC images/calendarr.jpg" usemap="#image-map" >
+ <div id="side">
+ <span id="small"> Schedule an appointment</span> <span><img src="../assets/MWC images/label.jpg"  alt="" id="label"></span>
+</div>
+<ion-list>
+  <ion-list-header>Appointment Booking</ion-list-header>
+
+  <ion-item>
+    <ion-label>Time</ion-label>
+    <ion-select placeholder="Select Time">
+      <ion-select-option >8:00am-5:00pm</ion-select-option>
+      <ion-select-option >6:00pm-10:00pm</ion-select-option>
+    </ion-select>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>Available Doctors</ion-label>
+    <ion-select  okText="Confirm" cancelText="Cancel" placeholder="Select Doctor">
+      <ion-select-option >Dr. Elizabeth
+      </ion-select-option>
+      <ion-select-option >Dr.Dean</ion-select-option>
+     
+    </ion-select>
+  </ion-item>
+
+</ion-list>
+<button id="button" (click)="presentLoading()" [routerLink]="['/done']">Done</button>
+
+ </ion-content>

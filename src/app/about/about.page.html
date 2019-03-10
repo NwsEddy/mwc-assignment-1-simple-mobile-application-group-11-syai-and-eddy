@@ -5,7 +5,7 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content padding>
+<ion-content padding class="bg">
   <img src="../assets/MWC images/paw6.png" alt="">
  
   <ion-toolbar> <ion-button color="secondary" (click)="anything('This is the About Us page')"  id="AboutUs"  [routerLink]="['/about-us2']">
@@ -16,23 +16,23 @@
 <ion-tabs>
     <ion-tab-bar slot="bottom">
       <ion-tab-button tab="schedule">
-        <ion-icon name="calendar" size="large"></ion-icon>
+        <ion-icon name="calendar" size="large" [routerLink]="['/appointment2']"  ></ion-icon>
         <!-- <ion-label>Schedule</ion-label> -->
         <ion-badge>6</ion-badge>
       </ion-tab-button>
   
       <ion-tab-button tab="speakers">
-        <ion-icon name="contacts" size="large"></ion-icon>
+        <ion-icon name="contacts" size="large" [routerLink]="['/chat']"></ion-icon>
         <!-- <ion-label>Ask a doctor</ion-label> -->
       </ion-tab-button>
   
       <ion-tab-button tab="map">
-        <ion-icon name="medkit" size="large"></ion-icon>
+        <ion-icon name="medkit" size="large" [routerLink]="['/medicine']" ></ion-icon>
         <!-- <ion-label>Medicines</ion-label> -->
       </ion-tab-button>
   
       <ion-tab-button tab="about">
-        <ion-icon name="information-circle" size="large" [routerLink]="['/cst']"></ion-icon>
+        <ion-icon name="information-circle" size="large" [routerLink]="['/cst']"  ></ion-icon>
         <!-- <ion-label>Health Tips</ion-label> -->
       </ion-tab-button>
     </ion-tab-bar>

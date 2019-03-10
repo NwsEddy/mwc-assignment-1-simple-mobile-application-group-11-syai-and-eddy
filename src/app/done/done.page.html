@@ -1,0 +1,13 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Appointment Booking</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding text-center>
+  <img src="../assets/MWC images/tick.png"alt="">
+  <p>Your appointment has been set! </p>
+  <p >Please come at the chosen date and time </p>
+  <button id="button" (click)="presentLoading()" [routerLink]="['/about']">Done</button>
+
+</ion-content>

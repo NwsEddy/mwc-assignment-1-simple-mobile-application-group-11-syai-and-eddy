@@ -1,0 +1,35 @@
+// #label
+// {
+//     width: auto;
+//     height: auto;
+// }
+#side
+{
+    display: flex;
+}
+#small
+{
+    font-size: 18px;
+    width: 250px;
+}
+ion-header
+{
+    --ion-background-color:#89DADA;
+}
+ion-title
+{
+    color: black;
+    font-family: 'Reem Kufi';
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: auto;
+}
+#button
+{
+ background-color: #89DADA;
+//  border-radius:10px 10px 10px 10px ;
+font-size: 18px;
+ height: auto;
+ width: auto;
+}
