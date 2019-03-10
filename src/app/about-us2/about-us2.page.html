@@ -1,0 +1,49 @@
+<ion-header>
+  <ion-toolbar>
+
+      <ion-buttons slot="start">
+          <ion-back-button ></ion-back-button>
+        </ion-buttons>
+
+    <ion-title >About Us</ion-title>
+  </ion-toolbar>
+  
+</ion-header>
+
+<ion-content padding>
+
+  <img src="../assets/MWC images/paw6.png" alt="" imageViewer>
+  <p id="Mission" >Our Mission </p>
+ <p  id="provide">To provide convenience for our customers</p> 
+ <p id="question">What is  Furever Pawsitive? </p>
+ <p id="description">
+    Furever Pawsitive is an online application that serves as an online vet for all pet lovers. Furever Pawsitive will help users to book appointment where their pets can get monthly check-up. The users can also buy medicine such as an immune booster for a strong and healthy pet. Tips for common sickness was also provided in the application so that users can treat their sick pet immediately. If users are unsure about something or any inquiries, online chat with doctors are provided within the apps.
+ </p>
+ <p id="touch">
+    GET IN TOUCH 
+ </p>
+
+
+ <img *ngIf="buttonClicked" src="../assets/MWC images/map3.png" id="map" />
+
+ 
+
+ <ion-toolbar text-center> <ion-button fill="outline" (click)="onButtonClick()" > <ion-icon name="map" size="large" ></ion-icon></ion-button>
+</ion-toolbar>
+
+
+
+
+
+<p id="contact">
+    Address: Ong Sum Ping , 
+    <br>
+     Brunei Darussalam
+    <br>
+    Office hour: 10AM - 7PM 
+    <br>
+   Office number: 2344567
+</p>
+ 
+
+</ion-content>

@@ -1,9 +1,40 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>About Us</ion-title>
+    <ion-title text-center> Furever Pawsitive </ion-title>
+   
   </ion-toolbar>
 </ion-header>
 
 <ion-content padding>
-jnkm
+  <img src="../assets/MWC images/paw6.png" alt="">
+ 
+  <ion-toolbar> <ion-button color="secondary" (click)="anything('This is the About Us page')"  id="AboutUs"  [routerLink]="['/about-us2']">
+  About Us
+</ion-button></ion-toolbar>
+
+
+<ion-tabs>
+    <ion-tab-bar slot="bottom">
+      <ion-tab-button tab="schedule">
+        <ion-icon name="calendar" size="large"></ion-icon>
+        <!-- <ion-label>Schedule</ion-label> -->
+        <ion-badge>6</ion-badge>
+      </ion-tab-button>
+  
+      <ion-tab-button tab="speakers">
+        <ion-icon name="contacts" size="large"></ion-icon>
+        <!-- <ion-label>Ask a doctor</ion-label> -->
+      </ion-tab-button>
+  
+      <ion-tab-button tab="map">
+        <ion-icon name="medkit" size="large"></ion-icon>
+        <!-- <ion-label>Medicines</ion-label> -->
+      </ion-tab-button>
+  
+      <ion-tab-button tab="about">
+        <ion-icon name="information-circle" size="large" [routerLink]="['/cst']"></ion-icon>
+        <!-- <ion-label>Health Tips</ion-label> -->
+      </ion-tab-button>
+    </ion-tab-bar>
+  </ion-tabs>
 </ion-content>

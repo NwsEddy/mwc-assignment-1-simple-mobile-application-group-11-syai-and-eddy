@@ -1,0 +1,158 @@
+ion-title
+{
+  font-family: 'Reem Kufi';
+  font-style: normal;
+  font-weight: normal;
+  // line-height: normal;
+  font-size: auto;
+  
+  color: #000000;
+   
+    // position: absolute;
+  
+    // font-family: Reem Kufi;
+    // font-style: normal;
+    // font-weight: normal;
+    // line-height: normal;
+    // font-size: auto;
+    
+    // color: #000000;
+   
+}
+
+ion-header
+{
+  --ion-background-color:#89DADA;
+}
+/* arabic */
+@font-face {
+    font-family: 'Reem Kufi';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Reem Kufi Regular'), local('ReemKufi-Regular'), url(https://fonts.gstatic.com/s/reemkufi/v6/2sDcZGJLip7W2J7v7wQzbWW5O7w.woff2) format('woff2');
+    unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE80-FEFC;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Reem Kufi';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Reem Kufi Regular'), local('ReemKufi-Regular'), url(https://fonts.gstatic.com/s/reemkufi/v6/2sDcZGJLip7W2J7v7wQzaGW5.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  img
+  {
+    width: 121px;
+    height: 114px;
+    // align-content: center;
+    // margin: 0 auto;
+    // left: 127px;
+    // top: 72px;
+    // align-items: center;
+    display: block;
+    margin: auto;
+  }
+  #Mission
+  {
+    font-family: 'Reem Kufi';
+    font-style: normal;
+    font-weight: normal;
+    // line-height: normal;
+    font-size: 36px;
+  text-align: center;
+    
+    color: #000000;    
+  }
+  #Mission:hover
+  {
+    background-color: aqua;
+  }
+  @keyframes bgcolor
+  {
+    0% {}
+  }
+
+
+
+  #provide
+  {
+    // left: 44px;
+    // right: 60px;
+    // top: 240px;
+    // top: 50px;
+    
+    font-family: 'Reem Kufi';
+    font-style: normal;
+    font-weight: normal;
+    // line-height: normal;
+    font-size: auto;
+    
+    color: #000000;
+//     display: block;
+//     width: 331px;
+// height: 33px;
+text-align: center;
+  }
+  #question
+  {
+    font-family: 'Reem Kufi';
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 18px;
+    text-align: center;
+    
+    color: #000000;
+  }
+  #description
+  {
+//     width: 343px;
+// height: 167px;
+left: 14px;
+top: 325px;
+
+font-family: 'Reem Kufi';
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: auto;
+text-align: center;
+
+color: #000000;
+  }
+  #touch
+  {
+//     width: 83px;
+// height: 18px;
+left: 146px;
+top: 474px;
+
+font-family: 'Reem Kufi';
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 12px;
+text-align: center;
+  }
+  #contact
+  {
+//     width: 216px;
+// height: 54px;
+left: 79px;
+top: 570px;
+
+font-family: 'Reem Kufi';
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 12px;
+text-align: center;
+
+color: #000000;
+  }
+  #map
+  {
+    border: solid steelblue;
+    width: auto;
+    height: auto;
+  }

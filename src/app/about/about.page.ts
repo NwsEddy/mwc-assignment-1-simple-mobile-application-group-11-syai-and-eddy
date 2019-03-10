@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ToastController } from '@ionic/angular';
 
 @Component({
   selector: 'app-about',
@@ -6,10 +7,23 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./about.page.scss'],
 })
 export class AboutPage implements OnInit {
-
-  constructor() { }
+  
+  constructor(private toastererx: ToastController) { }
 
   ngOnInit() {
+  //  console.log("I've started");
+  //this.anything()
   }
+anything(userValue){
+  this.showToast(userValue);
+}
+
+async showToast(msg) {
+  const toast = await this.toastererx.create({
+    message: msg,
+    duration: 2000
+});
+toast.present();
+}
 
 }

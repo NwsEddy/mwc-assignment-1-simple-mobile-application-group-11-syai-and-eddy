@@ -1,0 +1,43 @@
+ion-title
+{
+    font-family: 'Reem Kufi';
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: auto;
+
+color: #000000;
+}
+ion-header
+{
+  --ion-background-color:#89DADA;
+}
+h1{
+    font-size: 18px;
+}
+ion-slide
+{
+     padding-bottom: 50px;
+    background-size: cover;
+}
+#description{
+    font-size: 12px;
+    text-align: center;
+    
+}
+#name1
+{
+    font-size: 18px;
+}
+#medicine
+{
+    width: 100px;
+    height: 125px;
+    position: relative;
+}
+#middle
+{
+    // display: block;
+    // margin: 0 auto;
+    text-align: center;
+}

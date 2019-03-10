@@ -1,8 +1,40 @@
 ion-content
 {
     --ion-background-color:#D18E8E;
-}
+    animation: colors ;
+    animation-iteration-count: infinite;
+     animation-duration: 10s;
+     animation-direction: alternate;
+     animation-timing-function: ease;
 
+  //    -webkit-animation: colors 1s infinite alternate;
+	// -moz-animation: colors 1s infinite alternate;
+	// -ms-animation: colors 1s infinite alternate;
+	// -o-animation: colors 1s infinite alternate;
+    // transition: --ion-background-color 0.5s ease;
+    // animation-play-state: running;
+    // transition-timing-function: 5s;
+   
+}
+@keyframes colors
+{
+  // --ion-background-color:#D18E8E;
+  0% {--ion-background-color:#CEC8E4}
+  25% {--ion-background-color: #FFDEE5}
+  50% {--ion-background-color:#E2B1CD}
+  75% {--ion-background-color:#FDCFB3}
+  100% {--ion-background-color:#D18E8E}
+  
+  
+}
+#paw6
+{
+animation: heartbeat .5s infinite alternate;
+}
+@keyframes heartbeat
+{
+  to {transform: scale(1.05);}
+}
 
 // .dot {
 //     position: fixed;
@@ -43,9 +75,12 @@ ion-content
     font-size: auto;
     
     color: #000000;
+    background-color: azure;
+    
+    
     
 
-
+    
     width: 250px;
     height: 62px;
      left: 25px;

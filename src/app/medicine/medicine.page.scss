@@ -1,0 +1,66 @@
+// #body 
+// {margin:25px;}
+ion-title
+{
+    color: black;
+}
+
+div.polaroid {
+  width: 50%;
+ 
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  margin-right: 10px;
+  margin-top:20px;
+  margin-left: 10px; 
+  text-align: center;
+  right: 100px;
+}
+
+div.container {
+  text-align: center;
+  padding: 5px 5px;
+  background: #C9C4E5;
+}
+// #side
+// {
+//    display: inline-block;
+
+// }
+.gallery
+{
+    display: flex;
+}
+ion-header
+{
+    --ion-background-color:#89DADA;
+}
+img
+{
+height: 120px;
+// width: 150px;
+}
+.small
+{
+    font-size: 14px;
+}
+#big
+{
+    font-size: 24px;
+}
+p
+{
+    line-height: 5px;
+}
+#note
+{
+    width: auto;
+    height: auto;
+    background: #C9C4E5;
+    margin-bottom: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 14px;
+
+}
